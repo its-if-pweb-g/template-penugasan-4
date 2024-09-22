@@ -6,18 +6,19 @@
 
 `{{ !! Pastikan sudah ada git di perangkat yang anda gunakan !! }}`
 
-Dari project yang telah anda buat menggunakan perintah dari npm, untuk dapat mengumpulkan tugas ini berikut merupakan step-by-step yang harus dilakukan:
+Dari project yang telah anda buat menggunakan perintah dari npm, amda dapat mengumpulkan tugas dengan menggunakan step-by-step berikut:
 
 1. Buka terminal dan arahkan ke folder tempat pengerjaan anda, pastikan sudah ada isinya
 2. Masukkan perintah `git init`
-3. Kemudian masukkan perintah `git add .`
-4. Masukkan perintah `git reset README.md` agar readme tidak berubah
+3. Masukkan perintah `rm README.md` untuk menghapus readme yang digenerate oleh framework (jika tidak bisa delete secara manual saja)
+4. Kemudian masukkan perintah `git add .`
 5. Lakukan commit dengan perintah `git commit -m "{{ pesan commit anda }}"`
 6. Kemudian ketikkan `git remote add origin {{ your github .git link }}`
 7. Setelah itu, ketikkan `git branch -M main`
-8. Ketik perintah berikut `git branch --set-upstream-to=origin/main main`
-9. Lakukan pulling dari repository dengan perintah `git pull origin main --allow-unrelated-histories`
-10. Setelah itu push repository dengan perintah `git push -u origin main`
+8. Ketikkan `git fetch` untuk mengambil data branch
+9. Ketik perintah berikut `git branch --set-upstream-to=origin/main main`
+10. Lakukan pulling dari repository dengan perintah `git pull origin main --rebase`
+11. Setelah itu push repository dengan perintah `git push -u origin main`
 
 ## Deploying to Vercel
 
