@@ -1,6 +1,24 @@
-# Tugas 4 Pemrograman Web Kelas G
+# Tugas 5 Kelompok Pemrograman Web Kelas G
 
 `{{!! DILARANG DAN JANGAN PERNAH MEMODIFIKASI ATAUPUN MENGHAPUS FOLDER .github PADA REPOSITORY INI !!}}`
+
+## Anggota Kelompok
+| NRP | Nama |
+|:-----------:|:--------:|
+| 5025xxxxxx  | xxxxxxxxxxxxxxx  |
+| 5025xxxxxx  | xxxxxxxxxxxxxxx  |
+| 5025xxxxxx  | xxxxxxxxxxxxxxx  |
+
+## Link Deployment
+
+
+## Judul Aplikasi
+
+## Dokumentasi Progress Penugasan
+
+ex:
+### Update per hari sabtu yyyy-mm-dd
+Menambahkan route ke API --Nama yang mengerjakan
 
 ## Cara mengumpulkan tugas
 
